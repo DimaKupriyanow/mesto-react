@@ -10,6 +10,7 @@ function Card({ card, onCardClick }) {
           className="element__image  element__image_add"
           src={card.link}
           onClick={handleClick}
+          alt={card.name}
         ></img>
         <h3 className="element__title">{card.name}</h3>
         <button
