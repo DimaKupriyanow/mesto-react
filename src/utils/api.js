@@ -86,4 +86,3 @@
     };
 
     export const newApi = new Api(apiConfig);
-  export default Api;
